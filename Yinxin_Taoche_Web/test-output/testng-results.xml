@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20105" started-at="2017-06-27T14:41:43Z" finished-at="2017-06-27T14:42:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20105" started-at="2017-06-27T14:41:43Z" finished-at="2017-06-27T14:42:03Z">
+      <class name="Yixin.Taoche.TestScripts.TestTaocheHome">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Yixin.Taoche.TestScripts.TestTaocheHome@424127cf]" name="beforeMethod" is-config="true" duration-ms="3149" started-at="2017-06-27T22:41:43Z" finished-at="2017-06-27T22:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="HomePage_Search()[pri:0, instance:Yixin.Taoche.TestScripts.TestTaocheHome@424127cf]" name="HomePage_Search" duration-ms="16566" started-at="2017-06-27T22:41:46Z" finished-at="2017-06-27T22:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_Search -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Yixin.Taoche.TestScripts.TestTaocheHome@424127cf]" name="afterMethod" is-config="true" duration-ms="368" started-at="2017-06-27T22:42:03Z" finished-at="2017-06-27T22:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Yixin.Taoche.TestScripts.TestTaocheHome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
