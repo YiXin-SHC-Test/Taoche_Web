@@ -1,0 +1,8 @@
+<suite name="TestNGSuite">
+ <test name="test1">
+   <classes>
+      <class name="Yixin.Taoche.TestScripts.Annotation"/>
+      <class name="Yixin.Taoche.TestScripts.FirstTestNGDemo"/>
+    </classes>
+ </test>
+</suite>
