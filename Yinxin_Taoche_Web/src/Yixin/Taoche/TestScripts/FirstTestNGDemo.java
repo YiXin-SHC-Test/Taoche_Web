@@ -16,7 +16,7 @@ public class FirstTestNGDemo
     public void testSearch()
    {
 	  driver.get(baseUrl+"/");
-	  driver.findElement(By.id("txtSearchEr")).sendKeys("°ÂµÏ");
+	  driver.findElement(By.id("txtSearchEr")).sendKeys("å¥¥è¿ª");
 	  driver.findElement(By.id("btnSearchEr")).click();
    }
   @BeforeMethod
