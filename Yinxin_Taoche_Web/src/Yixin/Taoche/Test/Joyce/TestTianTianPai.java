@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
+import com.gargoylesoftware.htmlunit.javascript.host.Text;
+
 import Yixin.Taoche.Util.WaitUtil;
 
 public class TestTianTianPai
@@ -21,7 +23,9 @@ public class TestTianTianPai
 		String cityText = city.getText();
 		Assert.assertEquals("北京", cityText);
 		city.click();
-		WebElement cityshenzhen=driver.findElement(By.xpath(".//*[@id='ttCitys']/p/a[text()='深圳']"));
+		WebElement cityshenzhen=driver.findElement(By.xpath(".//*[@id='ttCitys']/p/a[text()='深圳']"));//定位城市为深圳
+		String cityshenzhenText=cityshenzhen.getText();
+		Assert.assertEquals("深圳",cityshenzhenText);
 		cityshenzhen.click();
 		WebElement phone=driver.findElement(By.id("txtPhone1"));
 		WebElement click=driver.findElement(By.id("sub1"));
@@ -34,6 +38,11 @@ public class TestTianTianPai
 	public void openBrowser()
 	{
 		driver=new FirefoxDriver();
+	}
+	@Test(dependsOnMethods={"tianTianPai"})
+	public void closeBrowser()
+	{
+		driver.quit();
 	}
 
 }
