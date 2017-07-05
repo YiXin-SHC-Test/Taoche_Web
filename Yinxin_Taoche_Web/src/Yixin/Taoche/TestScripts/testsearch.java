@@ -8,11 +8,11 @@ public class testsearch
 {
 	public static void main(String[] args)
 	{
-		WebDriver driver=new FirefoxDriver(); /*Ζτ¶―»πΊόδ―ΐΐΖχ*/;
+		WebDriver driver=new FirefoxDriver(); /*ε―ε¨ζµθ§ε™¨*/;
 		String baseUrl;		
 		baseUrl="http://www.taoche.com/";
 		driver.get(baseUrl);
-		driver.findElement(By.id("txtSearchEr")).sendKeys("°ΒµΟ");
+		driver.findElement(By.id("txtSearchEr")).sendKeys("ε¥¥θΏª");
 		driver.findElement(By.id("btnSearchEr")).click();
 	}; 
 
