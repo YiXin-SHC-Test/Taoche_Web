@@ -28,6 +28,7 @@ public class FirstTestNGDemo
   @AfterMethod
   public void afterMethod()
   {
+	  driver.close();
 	  driver.quit();
   }
 
