@@ -1,2 +1,8 @@
 eclipse.preferences.version=1
+encoding//src/Yixin/Taoche/Modules/Login_Action_ByUsername.java=UTF-8
+encoding//src/Yixin/Taoche/PageObjects/HomePage.java=UTF-8
+encoding//src/Yixin/Taoche/PageObjects/LoginPage.java=UTF-8
+encoding//src/Yixin/Taoche/TestScripts/TestDuanYan.java=UTF-8
+encoding//src/Yixin/Taoche/TestScripts/TestTaocheHome.java=UTF-8
+encoding//src/Yixin/Taoche/Util/ObjectMap.java=UTF-8
 encoding/objectMap.properties=UTF-8
