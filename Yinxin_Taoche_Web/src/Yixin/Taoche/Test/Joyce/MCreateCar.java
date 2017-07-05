@@ -29,6 +29,7 @@ public class MCreateCar
 		Runtime.getRuntime().exec("D:\\×Ô¶¯»¯\\test.exe");
 		Thread.sleep(15000);
 		WebDriverWait wait=new WebDriverWait(driver, 15);
+		
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("fileUploadImg1")));		
 		
 	}
