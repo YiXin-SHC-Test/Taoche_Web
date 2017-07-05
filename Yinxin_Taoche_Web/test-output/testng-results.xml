@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15182" started-at="2017-07-05T06:27:49Z" finished-at="2017-07-05T06:28:04Z">
+  <suite name="Default suite" duration-ms="21710" started-at="2017-07-05T06:46:30Z" finished-at="2017-07-05T06:46:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15182" started-at="2017-07-05T06:27:49Z" finished-at="2017-07-05T06:28:04Z">
+    <test name="Default test" duration-ms="21710" started-at="2017-07-05T06:46:30Z" finished-at="2017-07-05T06:46:52Z">
       <class name="Yixin.Taoche.TestScripts.TestTianTianPai">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Yixin.Taoche.TestScripts.TestTianTianPai@17c748f]" name="openBrowser" duration-ms="4374" started-at="2017-07-05T14:27:49Z" finished-at="2017-07-05T14:27:54Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Yixin.Taoche.TestScripts.TestTianTianPai@4af1b50]" name="openBrowser" duration-ms="4263" started-at="2017-07-05T14:46:30Z" finished-at="2017-07-05T14:46:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="tianTianPai()[pri:0, instance:Yixin.Taoche.TestScripts.TestTianTianPai@17c748f]" name="tianTianPai" duration-ms="10761" started-at="2017-07-05T14:27:54Z" depends-on-methods="Yixin.Taoche.TestScripts.TestTianTianPai.openBrowser" finished-at="2017-07-05T14:28:04Z">
+        <test-method status="PASS" signature="tianTianPai()[pri:0, instance:Yixin.Taoche.TestScripts.TestTianTianPai@4af1b50]" name="tianTianPai" duration-ms="17406" started-at="2017-07-05T14:46:34Z" depends-on-methods="Yixin.Taoche.TestScripts.TestTianTianPai.openBrowser" finished-at="2017-07-05T14:46:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tianTianPai -->

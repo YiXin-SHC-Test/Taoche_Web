@@ -1,4 +1,4 @@
-package Yixin.Taoche.TestScripts;
+package Yixin.Taoche.Test.Joyce;
 
 import junit.framework.Assert;
 
@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 
-public class ClearInputBox
+public class TestSearch
 {
 	public WebDriver driver;
 	@Test(dependsOnMethods={"openBrowser"})

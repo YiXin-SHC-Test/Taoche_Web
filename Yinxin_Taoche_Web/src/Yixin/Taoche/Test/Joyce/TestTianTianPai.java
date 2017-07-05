@@ -1,4 +1,4 @@
-package Yixin.Taoche.TestScripts;
+package Yixin.Taoche.Test.Joyce;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -16,9 +16,13 @@ public class TestTianTianPai
 	public void tianTianPai()
 	{
 		driver.get("http://maiche.taoche.com");
+		driver.manage().window().maximize();
 		WebElement city=driver.findElement(By.xpath("//*[@id='spTTcity']"));
 		String cityText = city.getText();
 		Assert.assertEquals("±±æ©", cityText);
+		city.click();
+		WebElement cityshenzhen=driver.findElement(By.xpath(".//*[@id='ttCitys']/p/a[text()='…Ó€⁄']"));
+		cityshenzhen.click();
 		WebElement phone=driver.findElement(By.id("txtPhone1"));
 		WebElement click=driver.findElement(By.id("sub1"));
 		phone.sendKeys("15712808014");

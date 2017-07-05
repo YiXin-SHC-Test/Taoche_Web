@@ -1,4 +1,4 @@
-package Yixin.Taoche.TestScripts;
+package Yixin.Taoche.Test.Joyce;
 
 import junit.framework.Assert;
 
