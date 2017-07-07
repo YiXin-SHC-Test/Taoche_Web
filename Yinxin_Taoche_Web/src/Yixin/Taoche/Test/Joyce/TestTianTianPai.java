@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-import com.gargoylesoftware.htmlunit.javascript.host.Text;
 
 import Yixin.Taoche.Util.WaitUtil;
 
