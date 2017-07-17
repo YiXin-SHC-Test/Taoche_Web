@@ -1,11 +1,12 @@
 package Yixin.Taoche.Test.Joyce;
 
-import org.junit.Assert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -25,7 +26,7 @@ public class PCCreateCar {
 		WaitUtil.sleep(2000);
 		driver.findElement(By.xpath(".//*[@id='carSelect2_letters_A']/p[1]/a")).click();
 		WaitUtil.sleep(2000);
-		driver.findElement(By.xpath(".//*[@id='carSelect2_serial_list']/div/p/a[text()='�µ�100']")).click();
+		driver.findElement(By.xpath(".//*[@id='carSelect2_serial_list']/div/p/a[text()='奥迪100']")).click();
 		WaitUtil.sleep(2000);
 		driver.findElement(By.xpath("//*[@id='carSelect2_cartype_list']/div/p/a[text()='1.8L']")).click();
 		WaitUtil.sleep(2000);
