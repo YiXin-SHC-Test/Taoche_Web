@@ -55,8 +55,12 @@ public class PCCreateCar {
 		String code = getCode();
 		WaitUtil.sleep(5000);
 		System.out.println(code);
+		
+		WaitUtil.waitWebelement(driver,
+				".//*[@id='smsCode2']/span/a[contains(text(),'后获取')]");
+		
 		driver.findElement(By.id("txtCode2")).sendKeys(code);
-		WaitUtil.sleep(50000);
+
 		driver.findElement(By.id("aUploadImg")).click();
 		Runtime.getRuntime().exec("E:\\test.exe");
 		WaitUtil.sleep(1000);
@@ -73,6 +77,7 @@ public class PCCreateCar {
 		driver.get("http://ajax.taoche.cn/smscode/getautotestcode.ashx?m=15321921018&t=1");
 		WebElement element = driver.findElement(By.xpath("html/body"));
 		String text = element.getText();
+		driver.quit();
 		return text;
 	}
 
