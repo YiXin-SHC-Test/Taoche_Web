@@ -17,21 +17,21 @@ public class TestTianTianPai
 	public void tianTianPai()
 	{
 		driver.get("http://maiche.taoche.com");
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		WebElement city=driver.findElement(By.xpath("//*[@id='spTTcity']"));
 		String cityText = city.getText();
-		Assert.assertEquals("北京", cityText);
+		Assert.assertEquals("鍖椾含", cityText);
 		city.click();
-		WebElement cityshenzhen=driver.findElement(By.xpath(".//*[@id='ttCitys']/p/a[text()='深圳']"));//定位城市为深圳
+		WebElement cityshenzhen=driver.findElement(By.xpath(".//*[@id='ttCitys']/p/a[text()='娣卞湷']"));//鍒囨崲娣卞湷鍩庡競
 		String cityshenzhenText=cityshenzhen.getText();
-		Assert.assertEquals("深圳",cityshenzhenText);
+		Assert.assertEquals("娣卞湷",cityshenzhenText);
 		cityshenzhen.click();
 		WebElement phone=driver.findElement(By.id("txtPhone1"));
 		WebElement click=driver.findElement(By.id("sub1"));
 		phone.sendKeys("15712808014");
 		click.click();
 		WaitUtil.sleep(5000);		
-		Assert.assertTrue(driver.getPageSource().contains("提交成功！专属顾问会在24小时内联系您"));
+		Assert.assertTrue(driver.getPageSource().contains("鍙戝竷鎴愬姛"));
 	}
 	@Test
 	public void openBrowser()
