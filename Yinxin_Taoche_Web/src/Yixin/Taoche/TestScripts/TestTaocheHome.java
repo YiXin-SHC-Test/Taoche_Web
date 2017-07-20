@@ -17,7 +17,7 @@ public class TestTaocheHome {
 
 	@Test
 	public void HomePage_Search() throws Exception {
-		driver.get(baseUrl + "/");
+		driver.get(baseUrl);
 		HomePage homePage = new HomePage(driver);
 		homePage.SearchInput().clear(); // 先清空搜索框中的内容
 		homePage.SearchInput().sendKeys("奥迪"); // 搜索框中输入要查询的内容

@@ -9,7 +9,7 @@ public class HomePage {
 	private WebElement element = null;
 	// 指定页面元素定位表达式配置文件的绝对文件路径
 	private ObjectMap objectMap = new ObjectMap(
-			"C:\\Users\\Maglweb\\git\\Taoche_Web\\Yinxin_Taoche_Web\\objectMap.properties");
+			"config/objectMap.properties");
 	private WebDriver driver;
 
 	public HomePage(WebDriver driver) {
